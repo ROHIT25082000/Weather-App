@@ -1,5 +1,5 @@
 # Weather-App
-An expressJs Web App to get weather information
+An express.js Web App to get weather information
 
 Requirements 
 nodejs v12.18.2 or higher<br>
