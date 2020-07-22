@@ -8,11 +8,6 @@ const  https = require("https");
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static(__dirname));
 
-
-app.get("/",function(req, res){
-    res.sendFile(__dirname+"/favicon.ico")
-})
-
 app.post("/",function(req, res){
 
     var query = req.body.cityName;
