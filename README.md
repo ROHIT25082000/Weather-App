@@ -11,7 +11,7 @@ Execute the below
 <br>
 <code>$ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -</code>
 <br>
-<code>sudo apt-get install -y nodejs</code>
+<code>$ sudo apt-get install -y nodejs</code>
 
 Now go to the repository where you have saved it execute 
 <br>
