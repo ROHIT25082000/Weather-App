@@ -24,7 +24,8 @@ Now go to your browser and type
 
 localhost:3000 
 
-for mobile-view do the following  
+for mobile-view make sure your phone and pc are connected to same wifi connection and 
+do the following  
 go to terminal and excecute type 
 
 <code>ifconfig</code>
