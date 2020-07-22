@@ -1,0 +1,114 @@
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Sacramento', cursive; */
+*{
+    margin: 0;
+    padding: 0;;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.back0{
+    background-image: url("../images/back1.jpg");
+    opacity: 0.95;
+    height: 85vh;
+}
+.back1{
+    background-image: url("../images/back2.jpg");
+    height: 85vh;
+    opacity: 0.95;
+}
+.back2{
+    background-image: url("../images/back3.jpg");
+    height: 85vh;
+    opacity: 0.95;
+}
+.back3{
+    background-image: url("../images/back4.jpg");
+    height: 85vh;
+    opacity: 0.95;
+}
+
+.myheader h1{
+    text-align: center;
+    font-weight: 700;
+    font-family:'Sacramento', cursive;
+    font-size: 3.5rem;
+}
+.logo:hover{
+    color: gold;
+}
+h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.myheader p{
+    width: 50%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.myform{
+    text-align: center;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    background-color: #e3dfc8;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.card{
+    margin: 2% 30%;
+    opacity: 0.8;
+    border-radius: 15%;
+}
+.card-header{
+    background-color: rgb(202, 197, 197);   
+}
+.card:hover{
+    opacity: 1;
+    box-shadow: #e9e9e9
+}
+.social{
+    padding: 0 10px;
+}
+@media (max-width:790px){
+    .card{
+        margin: 2% 10%;
+        opacity: 0.8;
+        border-radius: 15%;
+    }
+    .back0{
+        background-image: url("../images/back1.jpg");
+        opacity: 0.95;
+        height: 60vh;
+    }
+    .back1{
+        background-image: url("../images/back2.jpg");
+        height: 60vh;
+        opacity: 0.95;
+    }
+    .back2{
+        background-image: url("../images/back3.jpg");
+        height: 60vh;
+        opacity: 0.95;
+    }
+    .back3{
+        background-image: url("../images/back4.jpg");
+        height: 60vh;
+        opacity: 0.95;
+    }
+    .myfooter{
+       display: none;
+    }    
+}
