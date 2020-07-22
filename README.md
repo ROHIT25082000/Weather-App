@@ -37,4 +37,4 @@ Now on your mobile browser type The above : YOURIP:3000
 And Boom ! it is on your mobile too !
 
 This app is not yet deployed on heroku :) 
-to done later
+to be done later
