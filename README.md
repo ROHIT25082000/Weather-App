@@ -2,10 +2,10 @@
 An expressJs Web App to get weather information
 
 Requirements 
-nodejs v12.18.2 or higher
-npm 6.14.5 or higher
+nodejs v12.18.2 or higher<br>
+npm 6.14.5 or higher<br>
 
-nodemon 2.0.4 (optional : just for multiple refreshes) 
+nodemon 2.0.4 (optional : just for multiple refreshes) <br>
 
 Execute the below 
 <br>
