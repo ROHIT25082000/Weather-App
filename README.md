@@ -4,7 +4,7 @@ An expressJs Web App to get weather information
 Requirements 
 nodejs 
 npm
-nodemon 
+nodemon (option : just for multiple refreshes) 
 
 Execute the below 
 sudo install node 
@@ -13,13 +13,28 @@ npm install -g nodemon
 
 Now go to the repository where you have saved it execute 
 <br>
-$ npm install express
+<code>$ npm install express</code>
 <br>
-$ npm install body-parser
+<code>$ npm install body-parser</code>
 <br>
-($ nodemon app.js)  or ($ node app.js)
+<code>$ nodemon app.js</code> or <code>$ node app.js</code>
 
 
 Now go to your browser and type
 
 localhost:3000 
+
+for mobile-view do the following  
+go to terminal and excecute type 
+
+<code>ifconfig</code>
+and get YOURIP
+go to any browser and type  
+YOURIP:3000 
+(eg 192.168.0.24:3000)
+
+Now on your mobile browser type The above : YOURIP:3000 
+And Boom ! it is on your mobile too !
+
+This app is not yet deployed on heroku :) 
+to done later
