@@ -25,20 +25,6 @@ Now go to the repository where you have saved it execute
 Now go to your browser and type
 
 localhost:3000 
-
-for mobile-view make sure your phone and pc are connected to same wifi connection and 
-do the following  
-go to terminal and excecute type 
-
-<code>ifconfig</code>
-and get YOURIP
-go to any browser and type  
-YOURIP:3000 
-(eg 192.168.0.24:3000)
-
-Now on your mobile browser type The above : YOURIP:3000 
-And Boom ! it is on your mobile too !
-
 This app is deployed on heroku :) 
 <br>
 <a href="https://fathomless-crag-28651.herokuapp.com/">Weather.in</a>
